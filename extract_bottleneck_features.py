@@ -28,7 +28,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>dog-project/README.md at master · udacity/dog-project</title>
+  <title>dog-project/extract_bottleneck_features.py at master · udacity/dog-project</title>
     <meta name="description" content="Contribute to udacity/dog-project development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -38,10 +38,10 @@
     <meta property="og:image" content="https://avatars1.githubusercontent.com/u/1916665?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="udacity/dog-project" /><meta property="og:url" content="https://github.com/udacity/dog-project" /><meta property="og:description" content="Contribute to udacity/dog-project development by creating an account on GitHub." />
 
   <link rel="assets" href="https://github.githubassets.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDAzMTkxNjkwOjgwZjgzOGJhNjFhMjEyMDUzNzg2OWFjMjQyMGI2NmNkNjg1YmY1MmUzODE5OTZiMTY0NGI4OWNhYzNmZWZhNzE=--7b03980ad86d9b144bc5d713d885732644b1c44d">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDAzMTkxNjkwOmEzN2UxMGRhZGZlYTZjMzUzMjZkMjA1YzA5N2Q5MGZiOTgzZDhjZDA3MGJiYzE2MWMwOTI1MTUzMGUyMjA5MGQ=--4c444b536bec66a02ae6c805dd414e38022be61e">
   <meta name="pjax-timeout" content="1000">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="EF42:C0DD:46F9460:6B193EE:5CD8BA96" data-pjax-transient>
+  <meta name="request-id" content="EF41:C0D9:3FACC18:601B3EC:5CD8BA8F" data-pjax-transient>
 
 
   
@@ -52,7 +52,7 @@
     <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
 
-  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="EF42:C0DD:46F9460:6B193EE:5CD8BA96" /><meta name="octolytics-dimension-region_edge" content="ams" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="23747515" /><meta name="octolytics-actor-login" content="fadwasaleh" /><meta name="octolytics-actor-hash" content="c87edc3a215304f2eda71565182d8158dd0f87438d14d443426e419a6283ae57" />
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="EF41:C0D9:3FACC18:601B3EC:5CD8BA8F" /><meta name="octolytics-dimension-region_edge" content="ams" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="23747515" /><meta name="octolytics-actor-login" content="fadwasaleh" /><meta name="octolytics-actor-hash" content="c87edc3a215304f2eda71565182d8158dd0f87438d14d443426e419a6283ae57" />
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
 
@@ -71,7 +71,7 @@
     <meta name="user-login" content="fadwasaleh">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="MmQ0ZTI4MWU4NTY1ODY5OGI0OTRhOTBmZWI1MzU4ZGNmMTE2NWFkODBhYTU1NjFlZGRmMjFiZmIzNzVmM2JlN3x7InJlbW90ZV9hZGRyZXNzIjoiMTk3LjU5Ljk3Ljc0IiwicmVxdWVzdF9pZCI6IkVGNDI6QzBERDo0NkY5NDYwOjZCMTkzRUU6NUNEOEJBOTYiLCJ0aW1lc3RhbXAiOjE1NTc3MDc0MTYsImhvc3QiOiJnaXRodWIuY29tIn0=">
+    <meta name="js-proxy-site-detection-payload" content="MDlkZjI3OGNlMDA5ZDRjMmJlNTMzYmIwMGExYmUzYjg2MmJkODA5OWYyNmFjNzgwNGNjMThlYWRkMjU4ZmE5MHx7InJlbW90ZV9hZGRyZXNzIjoiMTk3LjU5Ljk3Ljc0IiwicmVxdWVzdF9pZCI6IkVGNDE6QzBEOTozRkFDQzE4OjYwMUIzRUM6NUNEOEJBOEYiLCJ0aW1lc3RhbXAiOjE1NTc3MDc0MDksImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="UNIVERSE_BANNER,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,NOTIFY_ON_BLOCK,RELATED_ISSUES">
 
@@ -87,7 +87,7 @@
   <meta name="octolytics-dimension-user_id" content="1916665" /><meta name="octolytics-dimension-user_login" content="udacity" /><meta name="octolytics-dimension-repository_id" content="85731159" /><meta name="octolytics-dimension-repository_nwo" content="udacity/dog-project" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="85731159" /><meta name="octolytics-dimension-repository_network_root_nwo" content="udacity/dog-project" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/udacity/dog-project/blob/master/README.md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/udacity/dog-project/blob/master/extract_bottleneck_features.py" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -158,7 +158,7 @@
           aria-autocomplete="list"
           aria-controls="jump-to-results"
           aria-label="Search or jump to…"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=l+nR9zyB8+cNa6FaDk06cgYDuo+OXJknTbW2TVSVwrAgYobjqBtHg/Efn093FPEZBOX2i2+yJ+X3rTHp5wdVDw=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=XtYb5MDoAzI8kcTvUuyHly+HkG6NilfN2Om2vXMU/qjpXUzwVHK3VsDl+vortUz8LWHcamxk6Q9i8TEZwIZpFw=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -308,7 +308,7 @@
       <img class="avatar" src="https://avatars1.githubusercontent.com/u/23747515?s=40&amp;v=4" width="20" height="20" alt="@fadwasaleh" />
       fadwasaleh
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="eZcWzm7nB4eprP3mWam0Wr+U73RubbHXOZa07ORSoemRVTJiTeCIae23Ws5w7SSCgOrAas+QJqHJlg75V+ICpw==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Qo9LtV+UFYkmzdyi2IZmQHVTfZAAR/jhr+QjN3dc7LaqTW8ZfJOaZ2LWe4rxwvaYSi1SjqG6b5df5JkixOxP+A==" />
       <button type="submit" class="Header-link mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15 d-lg-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9V7H8V5h4V3l4 3-4 3zm-2 3H6V3L2 1h8v3h1V1c0-.55-.45-1-1-1H1C.45 0 0 .45 0 1v11.38c0 .39.22.73.55.91L6 16.01V13h4c.55 0 1-.45 1-1V8h-1v4z"/></svg>
         Sign out
@@ -401,7 +401,7 @@
     border
   " data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
-    <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit " aria-haspopup="dialog" role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:1916665,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:23747515,&quot;client_id&quot;:&quot;523186453.1557677982&quot;,&quot;originating_request_id&quot;:&quot;EF42:C0DD:46F9460:6B193EE:5CD8BA96&quot;,&quot;originating_url&quot;:&quot;https://github.com/udacity/dog-project/blob/master/README.md&quot;,&quot;referrer&quot;:&quot;https://github.com/udacity/dog-project&quot;}}" data-hydro-click-hmac="b2a04abbad9c46bb34798e4fa564e49cadfa00249e924c38501879f504341869">
+    <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit " aria-haspopup="dialog" role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:1916665,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:23747515,&quot;client_id&quot;:&quot;523186453.1557677982&quot;,&quot;originating_request_id&quot;:&quot;EF41:C0D9:3FACC18:601B3EC:5CD8BA8F&quot;,&quot;originating_url&quot;:&quot;https://github.com/udacity/dog-project/blob/master/extract_bottleneck_features.py&quot;,&quot;referrer&quot;:&quot;https://github.com/udacity/dog-project&quot;}}" data-hydro-click-hmac="dda259ba05b6a8582e66d3ce43abc79edeebf50d86b97f27f990bb19f3468a6f">
       <div class="d-flex">
         <div class="f6 lh-condensed user-status-header
           d-inline-block v-align-middle
@@ -427,7 +427,7 @@
         </div>
       </div>
 </summary>    <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="5EgndSpmDHvcKgPJ91KUMYnTqr8drS9cvknrrn64ZZPzD4jTD9rmJtiHtKkjI1SIbar160ZcAOg3oUQB48kWRg==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="6neuWhCIvhpBdwM6SHtrSGUXzDOjqOkwP0SGv6KtQpX9MAH8NTRUR0XatFqcCqvxgW6TZ/hZxoS2rCkQP9wxQA==" />
         <div class="Box-header bg-gray border-bottom p-3">
           <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
             <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
@@ -547,17 +547,17 @@
       </li>
       <li class="dropdown-divider" role="none"></li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2019-05-13T03:00:16+02:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2019-05-13T03:00:09+02:00">
             in 30 minutes
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2019-05-13T03:30:16+02:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2019-05-13T03:30:09+02:00">
             in 1 hour
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2019-05-13T06:30:16+02:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2019-05-13T06:30:09+02:00">
             in 4 hours
           </button>
         </li>
@@ -605,7 +605,7 @@
     <div role="none" class="dropdown-divider"></div>
     <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
     <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/BziGIHX96snPeca0dP71d5fHCFtzr17r7tVb1c8d1kU3sa0otB4RWMmQDL4l2sN4SEzP8wzKg1fu+965IzUFw==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="3cRTCWyNIh3Jk1Xr95tZGRvKXw1al0QXPIS95OgrG3c1BnelT4qt842I8sPe38nBJLRwE/tq02HMhAfxW5u4OQ==" />
       
       <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
         Sign out
@@ -655,10 +655,10 @@
 
   <li>
     
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="YG97ZNsDXRxmSDsovLGYXbbT0IXfbS6dfSWNOR7kGw4M7+mG5vGGJwazjjVUwxYEoAqpG7CHftnJIkuYnyaB2A==" />      <input type="hidden" name="repository_id" value="85731159">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="QPErLBScpa2NUC3L/7Yzf7UL+KNUWl7p/keOcjVK3qIscbnOKW5+lu2rmNYXxL0mo9KBPTuwDq1KQEjTtIhEdA==" />      <input type="hidden" name="repository_id" value="85731159">
 
       <details class="details-reset details-overlay select-menu float-left">
-        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:85731159,&quot;client_id&quot;:&quot;523186453.1557677982&quot;,&quot;originating_request_id&quot;:&quot;EF42:C0DD:46F9460:6B193EE:5CD8BA96&quot;,&quot;originating_url&quot;:&quot;https://github.com/udacity/dog-project/blob/master/README.md&quot;,&quot;referrer&quot;:&quot;https://github.com/udacity/dog-project&quot;,&quot;user_id&quot;:23747515}}" data-hydro-click-hmac="2d487d690525c43321d1bd6fbe184b2d0f2a4f7294eeacef258af724b1ffa561" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:85731159,&quot;client_id&quot;:&quot;523186453.1557677982&quot;,&quot;originating_request_id&quot;:&quot;EF41:C0D9:3FACC18:601B3EC:5CD8BA8F&quot;,&quot;originating_url&quot;:&quot;https://github.com/udacity/dog-project/blob/master/extract_bottleneck_features.py&quot;,&quot;referrer&quot;:&quot;https://github.com/udacity/dog-project&quot;,&quot;user_id&quot;:23747515}}" data-hydro-click-hmac="6e445f5a65f751fc8ffc40bba4bca0b6ef8ee8fcdcb4bf5111ffdb46f79feb02" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
               <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
               Watch
           </span>
@@ -729,18 +729,18 @@
 
   <li>
       <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/udacity/dog-project/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="x99Cdf247HyriyAKvK0xjsIQx0J3AjPX5cskpuHIJr8CotJxjePHyKX1rb/agaomFSQCzT/1CtnZdRKeABiVCg==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/udacity/dog-project/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Fgp6uW0JWA37eaT9RAhMu+G3OngnGpLBZlPQ1rhn7VTTd+q9HVJzufUHKUgiJNcTNoP/92/tq89a7ebuWbde4Q==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar udacity/dog-project" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:85731159,&quot;client_id&quot;:&quot;523186453.1557677982&quot;,&quot;originating_request_id&quot;:&quot;EF42:C0DD:46F9460:6B193EE:5CD8BA96&quot;,&quot;originating_url&quot;:&quot;https://github.com/udacity/dog-project/blob/master/README.md&quot;,&quot;referrer&quot;:&quot;https://github.com/udacity/dog-project&quot;,&quot;user_id&quot;:23747515}}" data-hydro-click-hmac="6039a531e411730cf8c57ce30b5e9307cb539f3eada616e70443989790b29ee9" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar udacity/dog-project" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:85731159,&quot;client_id&quot;:&quot;523186453.1557677982&quot;,&quot;originating_request_id&quot;:&quot;EF41:C0D9:3FACC18:601B3EC:5CD8BA8F&quot;,&quot;originating_url&quot;:&quot;https://github.com/udacity/dog-project/blob/master/extract_bottleneck_features.py&quot;,&quot;referrer&quot;:&quot;https://github.com/udacity/dog-project&quot;,&quot;user_id&quot;:23747515}}" data-hydro-click-hmac="a1549ce81c01761813fe7b149e4a6ff907d8086296c85c5aa2a8dbff08192f24" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
         Unstar
 </button>        <a class="social-count js-social-count" href="/udacity/dog-project/stargazers"
            aria-label="137 users starred this repository">
           137
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/udacity/dog-project/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="cF+3LOr222FIoPKLyiHWudgn2gttKFL6uq3086wF+Jx0wi8mnvrj/5d8lXCsli9GISipY1h5H997i2BAzTKBZQ==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/udacity/dog-project/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="BWdnTupqstanC2vgyQ58eGgNC/szNVFdoDQX+5esSFcB+v9EnmaKSHjXDBuvuYWHkQJ4kwZkHHhhEoNI9psxrg==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star udacity/dog-project" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:85731159,&quot;client_id&quot;:&quot;523186453.1557677982&quot;,&quot;originating_request_id&quot;:&quot;EF42:C0DD:46F9460:6B193EE:5CD8BA96&quot;,&quot;originating_url&quot;:&quot;https://github.com/udacity/dog-project/blob/master/README.md&quot;,&quot;referrer&quot;:&quot;https://github.com/udacity/dog-project&quot;,&quot;user_id&quot;:23747515}}" data-hydro-click-hmac="e94e1e1080d57562261b267b4b15edcdd9b653b4e4125c330dca107c3b5db39d" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star udacity/dog-project" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:85731159,&quot;client_id&quot;:&quot;523186453.1557677982&quot;,&quot;originating_request_id&quot;:&quot;EF41:C0D9:3FACC18:601B3EC:5CD8BA8F&quot;,&quot;originating_url&quot;:&quot;https://github.com/udacity/dog-project/blob/master/extract_bottleneck_features.py&quot;,&quot;referrer&quot;:&quot;https://github.com/udacity/dog-project&quot;,&quot;user_id&quot;:23747515}}" data-hydro-click-hmac="df470c36d8cc0b07b9334b31253860130f81029e2d2ba562168e13e19ba82821" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
         Star
 </button>        <a class="social-count js-social-count" href="/udacity/dog-project/stargazers"
            aria-label="137 users starred this repository">
@@ -751,8 +751,8 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/udacity/dog-project/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="P0/v5bZlHGUtJSaz3yGbigXeHFyw+FxoA63VxCChMA3+j1FQkNkB0nuPOO8wqAwy0+plqpfTWTLTSPWu+vRKuw==" />
-            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:85731159,&quot;client_id&quot;:&quot;523186453.1557677982&quot;,&quot;originating_request_id&quot;:&quot;EF42:C0DD:46F9460:6B193EE:5CD8BA96&quot;,&quot;originating_url&quot;:&quot;https://github.com/udacity/dog-project/blob/master/README.md&quot;,&quot;referrer&quot;:&quot;https://github.com/udacity/dog-project&quot;,&quot;user_id&quot;:23747515}}" data-hydro-click-hmac="3d7fb8d19f4bcc55ca2705a640fd6186f1c48ede2e2fe10a35229596edcd91f9" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of udacity/dog-project to your account" aria-label="Fork your own copy of udacity/dog-project to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/udacity/dog-project/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="xRWnu9y2zCkrLxuhYLQfqPM5QzJrrFUSYwwDf2hZdsgE1RkO+grRnn2FBf2PPYgQJQ06xEyHUEiz6SMVsgwMfg==" />
+            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:85731159,&quot;client_id&quot;:&quot;523186453.1557677982&quot;,&quot;originating_request_id&quot;:&quot;EF41:C0D9:3FACC18:601B3EC:5CD8BA8F&quot;,&quot;originating_url&quot;:&quot;https://github.com/udacity/dog-project/blob/master/extract_bottleneck_features.py&quot;,&quot;referrer&quot;:&quot;https://github.com/udacity/dog-project&quot;,&quot;user_id&quot;:23747515}}" data-hydro-click-hmac="4fa878f3f2761c2572cc2e01768e9cdd9c7510e1d77b0395b27d4c6b0210301e" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of udacity/dog-project to your account" aria-label="Fork your own copy of udacity/dog-project to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
               Fork
 </button></form>
     <a href="/udacity/dog-project/network/members" class="social-count"
@@ -882,9 +882,9 @@
 
 
   
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/udacity/dog-project/blob/8165d35b590b85196bdf90c2ec6c4852c074b602/README.md">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/udacity/dog-project/blob/8165d35b590b85196bdf90c2ec6c4852c074b602/extract_bottleneck_features.py">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v21:f7a9116274a3a1d2360671522fb145e8 -->
+    <!-- blob contrib key: blob_contributors:v21:502df9674a4f8972ec465a88d5679ec7 -->
       
 
     <div class="d-flex flex-items-start mb-3 flex-column flex-md-row">
@@ -899,7 +899,7 @@
     <span class="css-truncate-target">master</span>
   </summary>
 
-  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/udacity/dog-project/ref-list/master/README.md?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/udacity/dog-project/ref-list/master/extract_bottleneck_features.py?source_action=show&amp;source_controller=blob" preload>
     <include-fragment class="select-menu-loading-overlay anim-pulse">
       <svg height="32" class="octicon octicon-octoface" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
     </include-fragment>
@@ -913,13 +913,13 @@
                 data-hotkey="t">
             Find file
           </a>
-          <clipboard-copy value="README.md" class="btn btn-sm BtnGroup-item">
+          <clipboard-copy value="extract_bottleneck_features.py" class="btn btn-sm BtnGroup-item">
             Copy path
           </clipboard-copy>
         </div>
       </span>
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/udacity/dog-project"><span>dog-project</span></a></span></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/udacity/dog-project"><span>dog-project</span></a></span></span><span class="separator">/</span><strong class="final-path">extract_bottleneck_features.py</strong>
       </h2>
 
       <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
@@ -929,7 +929,7 @@
               data-hotkey="t">
           Find file
         </a>
-        <clipboard-copy value="README.md" class="btn btn-sm BtnGroup-item">
+        <clipboard-copy value="extract_bottleneck_features.py" class="btn btn-sm BtnGroup-item">
           Copy path
         </clipboard-copy>
       </div>
@@ -941,27 +941,27 @@
   <div class="Box Box--condensed d-flex flex-column flex-shrink-0">
       <div class="Box-body d-flex flex-justify-between bg-blue-light flex-column flex-md-row flex-items-start flex-md-items-center">
         <span class="pr-md-4 f6">
-          <a rel="contributor" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=24718190" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/Vincent-Carrier"><img class="avatar" src="https://avatars2.githubusercontent.com/u/24718190?s=40&amp;v=4" width="20" height="20" alt="@Vincent-Carrier" /></a>
-          <a class="text-bold link-gray-dark lh-default v-align-middle" rel="contributor" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=24718190" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/Vincent-Carrier">Vincent-Carrier</a>
+          <a rel="contributor" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=10624937" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/alexisbcook"><img class="avatar" src="https://avatars2.githubusercontent.com/u/10624937?s=40&amp;v=4" width="20" height="20" alt="@alexisbcook" /></a>
+          <a class="text-bold link-gray-dark lh-default v-align-middle" rel="contributor" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=10624937" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/alexisbcook">alexisbcook</a>
             <span class="lh-default v-align-middle">
-              <a data-pjax="true" title="readme: Fix typo (#16)" class="link-gray" href="/udacity/dog-project/commit/8165d35b590b85196bdf90c2ec6c4852c074b602">readme: Fix typo (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="287868398" data-permission-text="Issue title is private" data-url="https://github.com/udacity/dog-project/issues/16" data-hovercard-type="pull_request" data-hovercard-url="/udacity/dog-project/pull/16/hovercard" href="https://github.com/udacity/dog-project/pull/16">#16</a><a data-pjax="true" title="readme: Fix typo (#16)" class="link-gray" href="/udacity/dog-project/commit/8165d35b590b85196bdf90c2ec6c4852c074b602">)</a>
+              <a data-pjax="true" title="final edits" class="link-gray" href="/udacity/dog-project/commit/013c8a9b1e0a3714c57f7afdfc50e72b646a778f">final edits</a>
             </span>
         </span>
         <span class="d-inline-block flex-shrink-0 v-align-bottom f6 mt-2 mt-md-0">
-          <a class="pr-2 text-mono link-gray" href="/udacity/dog-project/commit/8165d35b590b85196bdf90c2ec6c4852c074b602" data-pjax>8165d35</a>
-          <relative-time datetime="2019-02-14T23:19:35Z">Feb 14, 2019</relative-time>
+          <a class="pr-2 text-mono link-gray" href="/udacity/dog-project/commit/013c8a9b1e0a3714c57f7afdfc50e72b646a778f" data-pjax>013c8a9</a>
+          <relative-time datetime="2017-04-11T05:53:03Z">Apr 11, 2017</relative-time>
         </span>
       </div>
 
     <div class="Box-body d-flex flex-items-center flex-auto f6 border-bottom-0 flex-wrap" >
       <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark float-left mr-2" id="blob_contributors_box">
         <summary class="btn-link" aria-haspopup="dialog">
-          <span><strong>4</strong> contributors</span>
+          <span><strong>1</strong> contributor</span>
         </summary>
         <details-dialog
           class="Box Box--overlay d-flex flex-column anim-fade-in fast"
           aria-label="Users who have contributed to this file"
-          src="/udacity/dog-project/contributors/master/README.md/list" preload>
+          src="/udacity/dog-project/contributors/master/extract_bottleneck_features.py/list" preload>
           <div class="Box-header">
             <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
               <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
@@ -973,18 +973,6 @@
           <include-fragment class="octocat-spinner my-3" aria-label="Loading..."></include-fragment>
         </details-dialog>
       </details>
-        <span class="">
-    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=10624937" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/udacity/dog-project/commits/master/README.md?author=alexisbcook">
-      <img class="avatar mr-1" src="https://avatars2.githubusercontent.com/u/10624937?s=40&amp;v=4" width="20" height="20" alt="@alexisbcook" /> 
-</a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=24718190" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/udacity/dog-project/commits/master/README.md?author=Vincent-Carrier">
-      <img class="avatar mr-1" src="https://avatars2.githubusercontent.com/u/24718190?s=40&amp;v=4" width="20" height="20" alt="@Vincent-Carrier" /> 
-</a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=4346639" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/udacity/dog-project/commits/master/README.md?author=chaimpollak">
-      <img class="avatar mr-1" src="https://avatars3.githubusercontent.com/u/4346639?s=40&amp;v=4" width="20" height="20" alt="@chaimpollak" /> 
-</a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=1375977" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/udacity/dog-project/commits/master/README.md?author=cgearhart">
-      <img class="avatar mr-1" src="https://avatars0.githubusercontent.com/u/1375977?s=40&amp;v=4" width="20" height="20" alt="@cgearhart" /> 
-</a>
-</span>
-
     </div>
   </div>
 
@@ -998,17 +986,17 @@
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
 
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-      117 lines (88 sloc)
+      19 lines (15 sloc)
       <span class="file-info-divider"></span>
-    6.36 KB
+    932 Bytes
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/udacity/dog-project/raw/master/README.md">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/udacity/dog-project/blame/master/README.md">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/udacity/dog-project/commits/master/README.md">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/udacity/dog-project/raw/master/extract_bottleneck_features.py">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/udacity/dog-project/blame/master/extract_bottleneck_features.py">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/udacity/dog-project/commits/master/extract_bottleneck_features.py">History</a>
     </div>
 
 
@@ -1020,13 +1008,13 @@
                 <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
             </a>
 
-            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/udacity/dog-project/edit/master/README.md" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ueaNGM8UdklpFBbtHBb5UTupq/Lec3s7Builmamx9VVgh7flIlHxoaV+e/TwF0GIv+7F8DccA+4n7XjZuEp3qw==" />
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/udacity/dog-project/edit/master/extract_bottleneck_features.py" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="EhoDQ9NGkuSuPS3TdY9HO66r9rrI2+Q7W5RCy1T5R7/wQbzobUv7JNB0Vkt+yCl1ItQf8mBmrvHhFwuf1PgA0g==" />
               <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
                 aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
                 <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
               </button>
 </form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/udacity/dog-project/delete/master/README.md" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="yxajU1K45/3Uy3872MQbYHQxK4jQCrcKTU7Ggol7mpMxbm0tL9hrlCxQwug5W7Fgu0sdghfIZ73ci6kt9nRviw==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/udacity/dog-project/delete/master/extract_bottleneck_features.py" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="N6Ctb2hd7pSunpAI3eO/QsYENzN2bZZhP2atoMG4DmzofdD62sFSEUFeCR1D6nJXyJmOo8Itb4I1Cc50fffqeQ==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and delete the file" data-disable-with>
               <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -1036,123 +1024,106 @@
 </div>
 
       
-  <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
-    <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h2><a id="user-content-project-overview" class="anchor" aria-hidden="true" href="#project-overview"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Project Overview</h2>
-<p>Welcome to the Convolutional Neural Networks (CNN) project in the AI Nanodegree! In this project, you will learn how to build a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, your algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.</p>
-<p><a target="_blank" rel="noopener noreferrer" href="/udacity/dog-project/blob/master/images/sample_dog_output.png"><img src="/udacity/dog-project/raw/master/images/sample_dog_output.png" alt="Sample Output" title="Sample Output" style="max-width:100%;"></a></p>
-<p>Along with exploring state-of-the-art CNN models for classification, you will make important design decisions about the user experience for your app.  Our goal is that by completing this lab, you understand the challenges involved in piecing together a series of models designed to perform various tasks in a data processing pipeline.  Each model has its strengths and weaknesses, and engineering a real-world application often involves solving many problems without a perfect answer.  Your imperfect solution will nonetheless create a fun user experience!</p>
-<h2><a id="user-content-project-instructions" class="anchor" aria-hidden="true" href="#project-instructions"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Project Instructions</h2>
-<h3><a id="user-content-instructions" class="anchor" aria-hidden="true" href="#instructions"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Instructions</h3>
-<ol>
-<li>Clone the repository and navigate to the downloaded folder.</li>
-</ol>
-<pre><code>git clone https://github.com/udacity/dog-project.git
-cd dog-project
-</code></pre>
-<ol start="2">
-<li>
-<p>Download the <a href="https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip" rel="nofollow">dog dataset</a>.  Unzip the folder and place it in the repo, at location <code>path/to/dog-project/dogImages</code>.</p>
-</li>
-<li>
-<p>Download the <a href="https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip" rel="nofollow">human dataset</a>.  Unzip the folder and place it in the repo, at location <code>path/to/dog-project/lfw</code>.  If you are using a Windows machine, you are encouraged to use <a href="http://www.7-zip.org/" rel="nofollow">7zip</a> to extract the folder.</p>
-</li>
-<li>
-<p>Download the <a href="https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogVGG16Data.npz" rel="nofollow">VGG-16 bottleneck features</a> for the dog dataset.  Place it in the repo, at location <code>path/to/dog-project/bottleneck_features</code>.</p>
-</li>
-<li>
-<p>(Optional) <strong>If you plan to install TensorFlow with GPU support on your local machine</strong>, follow <a href="https://www.tensorflow.org/install/" rel="nofollow">the guide</a> to install the necessary NVIDIA software on your system.  If you are using an EC2 GPU instance, you can skip this step.</p>
-</li>
-<li>
-<p>(Optional) <strong>If you are running the project on your local machine (and not using AWS)</strong>, create (and activate) a new environment.</p>
-<ul>
-<li><strong>Linux</strong> (to install with <strong>GPU support</strong>, change <code>requirements/dog-linux.yml</code> to <code>requirements/dog-linux-gpu.yml</code>):</li>
-</ul>
-<pre><code>conda env create -f requirements/dog-linux.yml
-source activate dog-project
-</code></pre>
-<ul>
-<li><strong>Mac</strong> (to install with <strong>GPU support</strong>, change <code>requirements/dog-mac.yml</code> to <code>requirements/dog-mac-gpu.yml</code>):</li>
-</ul>
-<pre><code>conda env create -f requirements/dog-mac.yml
-source activate dog-project
-</code></pre>
-<p><strong>NOTE:</strong> Some Mac users may need to install a different version of OpenCV</p>
-<pre><code>conda install --channel https://conda.anaconda.org/menpo opencv3
-</code></pre>
-<ul>
-<li><strong>Windows</strong> (to install with <strong>GPU support</strong>, change <code>requirements/dog-windows.yml</code> to <code>requirements/dog-windows-gpu.yml</code>):</li>
-</ul>
-<pre><code>conda env create -f requirements/dog-windows.yml
-activate dog-project
-</code></pre>
-</li>
-<li>
-<p>(Optional) <strong>If you are running the project on your local machine (and not using AWS)</strong> and Step 6 throws errors, try this <strong>alternative</strong> step to create your environment.</p>
-<ul>
-<li><strong>Linux</strong> or <strong>Mac</strong> (to install with <strong>GPU support</strong>, change <code>requirements/requirements.txt</code> to <code>requirements/requirements-gpu.txt</code>):</li>
-</ul>
-<pre><code>conda create --name dog-project python=3.5
-source activate dog-project
-pip install -r requirements/requirements.txt
-</code></pre>
-<p><strong>NOTE:</strong> Some Mac users may need to install a different version of OpenCV</p>
-<pre><code>conda install --channel https://conda.anaconda.org/menpo opencv3
-</code></pre>
-<ul>
-<li><strong>Windows</strong> (to install with <strong>GPU support</strong>, change <code>requirements/requirements.txt</code> to <code>requirements/requirements-gpu.txt</code>):</li>
-</ul>
-<pre><code>conda create --name dog-project python=3.5
-activate dog-project
-pip install -r requirements/requirements.txt
-</code></pre>
-</li>
-<li>
-<p>(Optional) <strong>If you are using AWS</strong>, install Tensorflow.</p>
-</li>
-</ol>
-<pre><code>sudo python3 -m pip install -r requirements/requirements-gpu.txt
-</code></pre>
-<ol start="9">
-<li>
-<p>Switch <a href="https://keras.io/backend/" rel="nofollow">Keras backend</a> to TensorFlow.</p>
-<ul>
-<li><strong>Linux</strong> or <strong>Mac</strong>:
-<pre><code> KERAS_BACKEND=tensorflow python -c "from keras import backend"
-</code></pre>
-</li>
-<li><strong>Windows</strong>:
-<pre><code> set KERAS_BACKEND=tensorflow
- python -c "from keras import backend"
-</code></pre>
-</li>
-</ul>
-</li>
-<li>
-<p>(Optional) <strong>If you are running the project on your local machine (and not using AWS)</strong>, create an <a href="http://ipython.readthedocs.io/en/stable/install/kernel_install.html" rel="nofollow">IPython kernel</a> for the <code>dog-project</code> environment.</p>
-</li>
-</ol>
-<pre><code>python -m ipykernel install --user --name dog-project --display-name "dog-project"
-</code></pre>
-<ol start="11">
-<li>Open the notebook.</li>
-</ol>
-<pre><code>jupyter notebook dog_app.ipynb
-</code></pre>
-<ol start="12">
-<li>(Optional) <strong>If you are running the project on your local machine (and not using AWS)</strong>, before running code, change the kernel to match the dog-project environment by using the drop-down menu (<strong>Kernel &gt; Change kernel &gt; dog-project</strong>). Then, follow the instructions in the notebook.</li>
-</ol>
-<p><strong>NOTE:</strong> While some code has already been implemented to get you started, you will need to implement additional functionality to successfully answer all of the questions included in the notebook. <strong>Unless requested, do not modify code that has already been included.</strong></p>
-<h2><a id="user-content-evaluation" class="anchor" aria-hidden="true" href="#evaluation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Evaluation</h2>
-<p>Your project will be reviewed by a Udacity reviewer against the CNN project <a href="https://review.udacity.com/#!/rubrics/810/view" rel="nofollow">rubric</a>.  Review this rubric thoroughly, and self-evaluate your project before submission.  All criteria found in the rubric must meet specifications for you to pass.</p>
-<h2><a id="user-content-project-submission" class="anchor" aria-hidden="true" href="#project-submission"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Project Submission</h2>
-<p>When you are ready to submit your project, collect the following files and compress them into a single archive for upload:</p>
-<ul>
-<li>The <code>dog_app.ipynb</code> file with fully functional code, all code cells executed and displaying output, and all questions answered.</li>
-<li>An HTML or PDF export of the project notebook with the name <code>report.html</code> or <code>report.pdf</code>.</li>
-<li>Any additional images used for the project that were not supplied to you for the project. <strong>Please do not include the project data sets in the <code>dogImages/</code> or <code>lfw/</code> folders.  Likewise, please do not include the <code>bottleneck_features/</code> folder.</strong></li>
-</ul>
-<p>Alternatively, your submission could consist of the GitHub link to your repository.</p>
-</article>
+
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-python ">
+      
+<table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">extract_VGG16</span>(<span class="pl-smi">tensor</span>):</td>
+      </tr>
+      <tr>
+        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">from</span> keras.applications.vgg16 <span class="pl-k">import</span> <span class="pl-c1">VGG16</span>, preprocess_input</td>
+      </tr>
+      <tr>
+        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">return</span> VGG16(<span class="pl-v">weights</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&#39;</span>imagenet<span class="pl-pds">&#39;</span></span>, <span class="pl-v">include_top</span><span class="pl-k">=</span><span class="pl-c1">False</span>).predict(preprocess_input(tensor))</td>
+      </tr>
+      <tr>
+        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">extract_VGG19</span>(<span class="pl-smi">tensor</span>):</td>
+      </tr>
+      <tr>
+        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">from</span> keras.applications.vgg19 <span class="pl-k">import</span> <span class="pl-c1">VGG19</span>, preprocess_input</td>
+      </tr>
+      <tr>
+        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">return</span> VGG19(<span class="pl-v">weights</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&#39;</span>imagenet<span class="pl-pds">&#39;</span></span>, <span class="pl-v">include_top</span><span class="pl-k">=</span><span class="pl-c1">False</span>).predict(preprocess_input(tensor))</td>
+      </tr>
+      <tr>
+        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">extract_Resnet50</span>(<span class="pl-smi">tensor</span>):</td>
+      </tr>
+      <tr>
+        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">from</span> keras.applications.resnet50 <span class="pl-k">import</span> ResNet50, preprocess_input</td>
+      </tr>
+      <tr>
+        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">return</span> ResNet50(<span class="pl-v">weights</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&#39;</span>imagenet<span class="pl-pds">&#39;</span></span>, <span class="pl-v">include_top</span><span class="pl-k">=</span><span class="pl-c1">False</span>).predict(preprocess_input(tensor))</td>
+      </tr>
+      <tr>
+        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">extract_Xception</span>(<span class="pl-smi">tensor</span>):</td>
+      </tr>
+      <tr>
+        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">from</span> keras.applications.xception <span class="pl-k">import</span> Xception, preprocess_input</td>
+      </tr>
+      <tr>
+        <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">return</span> Xception(<span class="pl-v">weights</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&#39;</span>imagenet<span class="pl-pds">&#39;</span></span>, <span class="pl-v">include_top</span><span class="pl-k">=</span><span class="pl-c1">False</span>).predict(preprocess_input(tensor))</td>
+      </tr>
+      <tr>
+        <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line"><span class="pl-k">def</span> <span class="pl-en">extract_InceptionV3</span>(<span class="pl-smi">tensor</span>):</td>
+      </tr>
+      <tr>
+        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">from</span> keras.applications.inception_v3 <span class="pl-k">import</span> InceptionV3, preprocess_input</td>
+      </tr>
+      <tr>
+        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">return</span> InceptionV3(<span class="pl-v">weights</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&#39;</span>imagenet<span class="pl-pds">&#39;</span></span>, <span class="pl-v">include_top</span><span class="pl-k">=</span><span class="pl-c1">False</span>).predict(preprocess_input(tensor))</td>
+      </tr>
+</table>
+
+  <details class="details-reset details-overlay BlobToolbar position-absolute js-file-line-actions dropdown d-none" aria-hidden="true">
+    <summary class="btn-octicon ml-0 px-2 p-0 bg-white border border-gray-dark rounded-1" aria-label="Inline file action toolbar">
+      <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/></svg>
+    </summary>
+    <details-menu>
+      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2" style="width:185px">
+        <li><clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;" data-original-text="Copy lines">Copy lines</clipboard-copy></li>
+        <li><clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;" data-original-text="Copy permalink">Copy permalink</clipboard-copy></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/udacity/dog-project/blame/8165d35b590b85196bdf90c2ec6c4852c074b602/extract_bottleneck_features.py">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/udacity/dog-project/issues/new">Reference in new issue</a></li>
+      </ul>
+    </details-menu>
+  </details>
+
   </div>
 
     </div>
@@ -1184,7 +1155,7 @@ pip install -r requirements/requirements.txt
 <div class="footer container-lg width-full p-responsive" role="contentinfo">
   <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
-      <li class="mr-3 mr-lg-0">&copy; 2019 <span title="0.49024s from unicorn-77855d57ff-qmq66">GitHub</span>, Inc.</li>
+      <li class="mr-3 mr-lg-0">&copy; 2019 <span title="0.46587s from unicorn-68cb778446-km4dr">GitHub</span>, Inc.</li>
         <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
         <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
         <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
